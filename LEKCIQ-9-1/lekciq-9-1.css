@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #567788 0%,#121f25 100%)no-repeat;
+    font-size: 14px;
+    color: #333333;
+}
+nav{
+    height: 80px;
+    background-color: #EFF4F6;
+    text-align: right;
+    position: relative;
+    margin: 40px;
+    z-index: 5;
+    }
+nav li{
+    display:inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: #a4a8a9;
+}
+nav a:hover{
+    border-bottom:2px solid #46ee97;
+    color: #333333;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+nav ul{
+    padding: 30px 20px 0 0;
+    margin: 10px;
+}
+section.logo{
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    left: 550px;
+    background: #ea3d51;
+    height: 90px;
+    width: 90px;
+    padding: 20px;
+}
+h1.brand{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #ffffff;
+    margin-top: 72px;
+}
+main{
+    background-color: #cbd0d9;
+    width: 80%;
+    margin: auto;
+}
+h1.Book-title{
+    position: relative;
+    z-index: 10;
+    color: #121f25;
+    font-size: 54px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+h5.Book-genre{
+    color: #6dff88;
+    position: relative;
+    z-index: 3;
+    top: -80px;
+    left: 80px;
+    font-size: 120px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+body>main>section:nth-child(2){
+    position: relative;
+    z-index: 8;
+    margin: auto;
+    color: #ffffff;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom,#eb3c53 0%,#e6135c 100%)no-repeat;
+}  
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+main>section:nth-child(2)>button{
+    height: 40px;
+    width: 65px;
+    
+    background: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+}
+main>section:nth-child(2)>button:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+main > section:nth-child(3){
+    position: relative;
+    z-index: 4;
+    top: -250px;
+    background: #ffffff;
+    margin: 50px;
+    padding: 250px 35px 35px 35px;
+}
+main > section:nth-child(3)>h1{
+    color: #46ee97;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+main>section:nth-child(3)>p{
+    width: 70%;
+    margin-bottom: 20px;
+}
+main>section:nth-child(3)>button{
+    height: 40px;
+    width: 150px;
+    background: none;
+    border: 2px solid #121f25;
+    border-radius: 10px;
+    color: #121f25;
+    text-transform: uppercase;
+}
+main>section:nth-child(3)>button:hover{
+    background: #121f25;
+    color: #ffffff;
+    cursor: pointer;
+}
